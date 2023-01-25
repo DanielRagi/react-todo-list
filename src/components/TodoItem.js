@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/TodoItem.css';
 
 function TodoItem(props) {
     return(
-        <li>
-            <span>C</span>
+        <li className={props.completed}>
+            <span className="check">✅</span>
             <p>{props.text}</p>
             <span>X</span>
         </li>

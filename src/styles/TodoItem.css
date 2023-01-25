@@ -1,0 +1,22 @@
+li {
+    display: flex;
+    width: 360px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #2B91F7;
+    border-radius: 5px;
+}
+
+li p {
+    margin: 0;
+}
+
+.check {
+    font-size: 25px;
+}
+
+.false {
+    text-decoration: line-through;
+}
