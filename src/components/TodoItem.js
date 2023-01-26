@@ -5,8 +5,8 @@ function TodoItem(props) {
     return(
         <li className={`${props.completed}`}>
             <span className="check">✅</span>
-            <div><p>{props.text}</p></div>
-            <span>X</span>
+            <div className="text"><p>{props.text}</p></div>
+            <div className ="delete"><span>x</span></div>
         </li>
     );
 }

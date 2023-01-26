@@ -6,4 +6,7 @@
     border-radius: 5px;
     border-style: none;
     font-size: 15px;
+    background-color: var(--titleColor);
+    color: var(--bgColor);
+    margin-bottom: 15px;
 }

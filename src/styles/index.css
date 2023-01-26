@@ -6,6 +6,7 @@
   --fontColor: #C8CDD0;
   --titleColor: #EFF3F5;
   --calloutColor: #52A5E0;
+  --dangerColor: #C21516;
 }
 
 body {
@@ -23,7 +24,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 40%;
+  width: 650px;
   margin: 0 auto;
   background-color: var(--containerColor);
   border-radius: 12px;

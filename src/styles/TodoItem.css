@@ -4,18 +4,18 @@ li {
     padding: 5px;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     background-color: var(--secondBgColor);
     color: var(--bgColor);
     border-radius: 5px;
 }
 
-li div {
+li .text {
     text-align: left;
     width: 290px;
 }
 
-li div p {
+li .text p {
     margin: 0;
     font-size: 12px;
 }
@@ -28,6 +28,25 @@ li div p {
     background-color: var(--borderColor);
 }
 
-.true div p {
+.true .text p {
     text-decoration: line-through;
+}
+
+.delete {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--dangerColor);
+    position: relative;
+    bottom: 20px;
+    right: -15px;
+}
+
+.delete span {
+    position: relative;
+    left: 6px;
+    bottom: 4px;
+    font-size: 13px;
+    color: var(--titleColor);
+    font-weight: bold;
 }
