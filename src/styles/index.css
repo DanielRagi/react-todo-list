@@ -1,9 +1,21 @@
+:root {
+  --bgColor: #192229;
+  --containerColor: #212E36;
+  --borderColor: #2A3B47;
+  --secondBgColor: #A0A7AC;
+  --fontColor: #C8CDD0;
+  --titleColor: #EFF3F5;
+  --calloutColor: #52A5E0;
+}
+
 body {
   margin: 0;
+  padding: 20px;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
+  background-color: var(--bgColor);
+  color: var(--fontColor);
 }
 
 #root {
@@ -13,6 +25,7 @@ body {
   flex-direction: column;
   width: 40%;
   margin: 0 auto;
-  background-color: #5e5e5e;
+  background-color: var(--containerColor);
   border-radius: 12px;
+  border: var(--borderColor) 1px solid;
 }
