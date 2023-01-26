@@ -50,3 +50,22 @@ li .text p {
     color: var(--titleColor);
     font-weight: bold;
 }
+
+@media (max-width:750px) {
+    li {
+      width: 95%;
+    }
+
+    .delete {
+        width: 2em;
+        height: 2em;
+        bottom: 0px;
+        right: -18px;
+    }
+
+    .delete span {
+        left: 11px;
+        top: 2px;
+        font-size: 17px;
+    }
+}

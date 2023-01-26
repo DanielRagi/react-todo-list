@@ -8,3 +8,9 @@
     flex-direction: column;
     list-style: none;
 }
+
+@media (max-width:750px) {
+    .TodoList {
+      width: 90%;
+    }
+}
