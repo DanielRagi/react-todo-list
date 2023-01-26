@@ -4,5 +4,5 @@
 }
 
 .TodoCounter span {
-    color: #2B91F7;
+    color: var(--calloutColor);
 }

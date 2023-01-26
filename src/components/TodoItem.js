@@ -3,9 +3,9 @@ import '../styles/TodoItem.css';
 
 function TodoItem(props) {
     return(
-        <li className={props.completed}>
+        <li className={`${props.completed}`}>
             <span className="check">✅</span>
-            <p>{props.text}</p>
+            <div><p>{props.text}</p></div>
             <span>X</span>
         </li>
     );

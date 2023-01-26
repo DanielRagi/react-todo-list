@@ -5,18 +5,29 @@ li {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
-    background-color: #2B91F7;
+    background-color: var(--secondBgColor);
+    color: var(--bgColor);
     border-radius: 5px;
 }
 
-li p {
+li div {
+    text-align: left;
+    width: 290px;
+}
+
+li div p {
     margin: 0;
+    font-size: 12px;
 }
 
 .check {
     font-size: 25px;
 }
 
-.false {
+.true {
+    background-color: var(--borderColor);
+}
+
+.true div p {
     text-decoration: line-through;
 }
