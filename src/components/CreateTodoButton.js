@@ -3,7 +3,12 @@ import '../styles/CreateTodoButton.css'
 
 function CreateTodoButton(props) {
     return(
-        <div className="button"><span>+</span></div>
+        <div 
+            className="button"
+            onClick={() => {console.log("click")}}
+        >
+            <span>+</span>
+        </div>
     );
 }
 
